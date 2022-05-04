@@ -1,0 +1,87 @@
+.how {
+  &__box {
+  }
+
+  &__subheading {
+    font-size: 48px;
+    line-height: 130%;
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: inline;
+    font-family: "Montserrat-regular";
+    font-size: 18px;
+    line-height: 122%;
+    &:not(:last-child) {
+      margin-right: 85px;
+    }
+    margin-bottom: 45px;
+  }
+
+  &__block-left {
+    display: flex;
+  }
+}
+
+.left-block {
+  &__info {
+  }
+}
+.info {
+  &__title {
+    line-height: 133%;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 200%;
+    max-width: 758px;
+    padding-right: 142px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+  }
+
+  &__image {
+    img {
+      max-width: 100%;
+    }
+    flex-basis: 870px;
+    align-self: flex-end;
+  }
+}
+
+.btn {
+  &__one {
+    padding: 19px 38px;
+    background: #ff9900;
+    color: #ffffff;
+    margin-right: 32px;
+    border: none;
+    font-family: "Montserrat-regular";
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 125%;
+  }
+
+  &__two {
+    padding: 19px 38px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    font-family: "Montserrat-regular";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 125%;
+    background-color: transparent;
+  }
+}

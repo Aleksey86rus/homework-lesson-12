@@ -1,0 +1,43 @@
+.faq {
+  &__box {
+  }
+
+  &__subheading {
+    font-size: 48px;
+    line-height: 130%;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    padding: 38.5px 0;
+    border-top: 1px solid #000;
+    &:last-child {
+      border-bottom: 1px solid #000;
+    }
+    position: relative;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: "Montserrat-regular";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 133%;
+    color: #333333;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 30px;
+      right: 0;
+
+      background: url("./../image/+х.png") 0 0 / contain no-repeat;
+      width: 50px;
+      height: 50px;
+    }
+  }
+}

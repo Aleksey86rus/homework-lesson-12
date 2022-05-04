@@ -1,0 +1,17 @@
+@import "_fonts";
+@import "_iconfont";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+@import "_nullstyle";
+@import "_blocks";
+@import "_page";
+//* sections *//
+@import "_header";
+@import "_hero";
+@import "_about";
+@import "_how";
+@import "_faq";
+@import "_footer";

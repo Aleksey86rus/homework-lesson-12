@@ -1,0 +1,20 @@
+.page {
+  // & > *:not(:nth-child(1)) {
+  //   display: none;
+  // }
+  &__hero {
+    margin-bottom: 100px;
+  }
+
+  &__about {
+    margin-bottom: 100px;
+  }
+
+  &__how {
+    margin-bottom: 100px;
+  }
+
+  &__faq {
+    margin-bottom: 100px;
+  }
+}
