@@ -1,7 +1,7 @@
 .page {
-  // & > *:not(:nth-child(1)) {
-  //   display: none;
-  // }
+  & > *:not(:nth-child(2)) {
+    display: none;
+  }
   &__hero {
     margin-bottom: 100px;
   }

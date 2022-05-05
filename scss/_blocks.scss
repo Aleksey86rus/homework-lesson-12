@@ -24,23 +24,31 @@
 .box {
   max-width: 1770px;
   margin: 0 auto;
-  padding: 0 10px;
+  // padding: 0 10px;
 }
 
 .text {
   font-size: 16px;
   line-height: 125%;
-  color: #333333;
+  color: #333;
 }
 
 .subheading {
   font-size: 48px;
   line-height: 130%;
-  color: #333333;
+  color: #333;
 }
 
 .title {
   font-weight: bold;
   font-size: 24px;
-  color: #333333;
+  color: #333;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 121%;
+  color: #333;
+  margin-bottom: 8px;
 }
